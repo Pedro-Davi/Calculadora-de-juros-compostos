@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Juros compostos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class="container">
+    <div class="calculator">
+       <div class="title">
+         <h1>Calculando juros compostos</h1>
+       </div>
+
+      <div class="input-box">
+          <div class="input-field">
+            <label for="value">Capital inicial</label>
+            <input type="number" id="capital">
+          </div>
+        
+          <div class="input-field">
+            <label for="tx-am">Taxa de jutos a.m</label>
+            <input type="number" id="juros-pct">
+          </div>
+        
+          <div class="input-field">
+            <label for="time">Tempo de rendimento</label>
+            <input type="number" id="rendimento">
+          </div>
+      </div>
+      
+          <div class="content-result">
+            <h3>Resultado: </h3>
+            <div id="result">
+              
+              <span>
+                R$ 0,00
+              </span>
+              
+            </div>
+          </div>
+      
+          <button class="calculator-btn">Calcular</button>
+      
+    </div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
